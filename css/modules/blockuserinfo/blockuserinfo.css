@@ -1,0 +1,47 @@
+.header_user_info {padding-left: 23px; margin-bottom: 12px;}
+
+.header_user_info:hover {cursor: pointer;}
+
+.header_user_info ul {display: none; padding-top: 10px}
+
+.header_user_info .current span {
+  font-family: 'GothamProBold';
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+ .header_user_info div.current:after {
+  content: "";
+  display: inline-block;
+  float: right;
+  margin-top: 6px;
+  margin-right: 23px;
+  width: 7px; height: 4px;
+  background: url(../../../img/user_arrow.png) no-repeat center center;
+  transition-duration: 0.8s;
+  margin-left: 4px;
+}
+.header_user_info div.current.active:after {
+  transform: rotateX(180deg);
+}
+
+
+
+  .header_user_info a {
+    color: #868484;
+    font-family: 'GothamProRegular';
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    padding: 2px 9px 11px 8px;
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }
+    .header_user_info a:hover, .header_user_info a.active {
+      color: #514C29;
+    }
+
+/*# sourceMappingURL=blockuserinfo.css.map */

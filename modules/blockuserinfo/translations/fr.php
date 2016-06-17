@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_a2e9cd952cda8ba167e62b25a496c6c1'] = 'Bloc informations clients';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_970a31aa19d205f92ccfd1913ca04dc0'] = 'Ajoute un bloc avec des liens utiles pour le client (login, déconnexion...)';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_0c3bf3014aafb90201805e45b5e62881'] = 'Voir mon panier';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_a85eba4c6c699122b2bb1387ea4813ad'] = 'Panier';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_deb10517653c255364175796ace3553f'] = 'Produit';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_068f80c7519d0528fb08e82137a72131'] = 'Produits';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_9e65b51e82f2a9b9f72ebe3e083582bb'] = '(vide)';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_2cbfb6731610056e1d0aaacde07096c1'] = 'Voir mon compte client';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_a0623b78a5f2cfe415d9dbbd4428ea40'] = 'Votre compte';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_83218ac34c1834c26781fe4bde918ee4'] = 'Bienvenue';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_4b877ba8588b19f1b278510bf2b57ebb'] = 'Me déconnecter';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_c87aacf5673fada1108c9f809d354311'] = 'Déconnexion';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_d4151a9a3959bdd43690735737034f27'] = 'Identifiez-vous';
+$_MODULE['<{blockuserinfo}foodmarket>blockuserinfo_b6d4223e60986fa4c9af77ee5f7149c5'] = 'Connexion';
+$_MODULE['<{blockuserinfo}foodmarket>nav_2cbfb6731610056e1d0aaacde07096c1'] = 'Voir mon compte client';
+$_MODULE['<{blockuserinfo}foodmarket>nav_4b877ba8588b19f1b278510bf2b57ebb'] = 'Me déconnecter';
+$_MODULE['<{blockuserinfo}foodmarket>nav_c87aacf5673fada1108c9f809d354311'] = 'Déconnexion';
+$_MODULE['<{blockuserinfo}foodmarket>nav_d4151a9a3959bdd43690735737034f27'] = 'Identifiez-vous';
+$_MODULE['<{blockuserinfo}foodmarket>nav_b6d4223e60986fa4c9af77ee5f7149c5'] = 'Connexion';
+$_MODULE['<{blockuserinfo}foodmarket>nav_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Lun compte';
+$_MODULE['<{blockuserinfo}foodmarket>nav_74ecd9234b2a42ca13e775193f391833'] = 'Mes commandes';
+$_MODULE['<{blockuserinfo}foodmarket>nav_9132bc7bac91dd4e1c453d4e96edf219'] = 'Mes notes de crédit';
+$_MODULE['<{blockuserinfo}foodmarket>nav_e45be0a0d4a0b62b15694c1a631e6e62'] = 'Mes adresses';
+$_MODULE['<{blockuserinfo}foodmarket>nav_38473b2933e551250e1e4db0dfdc30d9'] = 'Mes infos';
+$_MODULE['<{blockuserinfo}foodmarket>nav_368140d2caf6b43106964fd615756d1b'] = 'Comparaison de produits';
+$_MODULE['<{blockuserinfo}foodmarket>nav_7ec9cceb94985909c6994e95c31c1aa8'] = 'Mes listes';
+$_MODULE['<{blockuserinfo}foodmarket>nav_f2fc7490cbdb0db5cd6f1a4e7edb0da1'] = 'Votre compte';
+$_MODULE['<{blockuserinfo}foodmarket>nav_641254d77e7a473aa5910574f3f9453c'] = 'Liste de souhaits';
+$_MODULE['<{blockuserinfo}foodmarket>nav_ffb7e666a70151215b4c55c6268d7d72'] = 'Bulletin';

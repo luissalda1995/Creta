@@ -1,0 +1,69 @@
+#currencies-block-top {
+  float: right;
+  position: relative;
+  margin-top: 9px;
+}
+  @media (max-width: 479px) {
+    #currencies-block-top {
+      width: 25%; } }
+  #currencies-block-top span.firstWord {
+    display: none; }
+  #currencies-block-top div.current {
+    padding: 8px 10px 0px 10px;
+    color: #868484;
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      #currencies-block-top div.current {
+        text-align: center;
+        padding: 9px 5px 10px;
+        font-size: 11px; } }
+    #currencies-block-top div.current strong {
+      color: #868484;
+      font-weight: normal;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+    #currencies-block-top div.current:hover, #currencies-block-top div.current.active {
+      background: #fff; }
+    #currencies-block-top div.current:after {
+      content: "";
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      left: 0;
+      width: 6px; height: 4px;
+      background: url(../../../img/lang_arrow.png) no-repeat center center;
+      transition-duration: 0.8s;
+      margin-left: 4px;
+    }
+
+    #currencies-block-top div.current.active:after {
+      transform: rotateX(180deg);
+    }
+      
+    @media (max-width: 479px) {
+      #currencies-block-top div.current .cur-label {
+        display: none; } }
+  #currencies-block-top ul {
+    display: none;
+    position: absolute;
+    top: 29px;
+    right: 0;
+    width: 100px;
+    background: #fff;
+    z-index: 2; }
+    #currencies-block-top ul li {
+      color: #868484; }
+      #currencies-block-top ul li a,
+      #currencies-block-top ul li > span {
+        padding: 0 10px 0 11px;
+        display: block;
+        color: #868484; }
+      #currencies-block-top ul li a span, #currencies-block-top ul li a {font-size: 10px; text-transform: uppercase;}
+      #currencies-block-top ul li.selected, #currencies-block-top ul li.selected span, #currencies-block-top ul li:hover a {
+        background: #fff;
+        color: #514C29;
+      }
+
+/*# sourceMappingURL=blockcurrencies.css.map */
