@@ -94,7 +94,7 @@ body .product_list.grid.row {margin-right: 0; margin-left: 0;}
 ul.product_list.grid > li .product-container .content_price {
 	padding-bottom: 9px;
 	line-height: 21px;
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0px;
 	right: 20px;
 }
@@ -102,7 +102,7 @@ ul.product_list.grid > li .product-container .content_price {
 
 .price.product-price {
   font-family: 'GothamProBold';
-  font-size: 40px;
+  font-size: 25px;
   line-height: 40px;
   color: #C2CD93;
 }
