@@ -792,8 +792,8 @@ textarea:active:focus {outline: none !important;}
 		margin: 0 26px 0px 6px;
 	}
 
-	ul.product_list.grid > li .product-container h5 a {font-size: 32px; line-height: 40px;}
-	.price.product-price {font-size: 50px; line-height: 50px;}
+	ul.product_list.grid > li .product-container h5 a {font-size: 20px; /*line-height: 40px;*/}
+	.price.product-price {font-size: 28px; line-height: 50px;}
 	ul.product_list.grid > li .product-container .content_price {bottom: 20px;}
 	.price-percent-reduction {top: -14px;}
 	.old-price {bottom: 65px; font-size: 32px;}
