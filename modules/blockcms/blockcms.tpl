@@ -66,6 +66,7 @@
 	<!-- /Block CMS module -->
 {else}
 	<!-- Block CMS module footer -->
+	<!--
 	<section class="footer-block" id="block_various_links_footer">
 		<h4 id="hide_info"><span class="header_hide">{l s='Information' mod='blockcms'}</span><i class="block_information_icon"></i></h4>
 		<ul id="hide_info_list" class="toggle-footer">
@@ -122,7 +123,7 @@
 			{/if}
 		</ul>
 		{$footer_text}
-	</section>
+	</section>-->
 	{*
 	{if $display_poweredby}
 	<section class="bottom-footer col-xs-12">

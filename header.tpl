@@ -149,11 +149,11 @@
 												{l s='My orders'}
 											</a>
 										</li>
-										<li>
+										<!--<li>
 											<a class="current-account" href="{$link->getPageLink('order-follow', true)|escape:'html':'UTF-8'}">
 												{l s='My credit slips'}
 											</a>
-										</li>
+										</li>-->
 										<li>
 											<a class="current-account" href="{$link->getPageLink('addresses', true)|escape:'html':'UTF-8'}">
 												{l s='My addresses'}
@@ -187,9 +187,9 @@
 
 
 
-								<div class="header_news_letter">
+								<!--<div class="header_news_letter">
 									<a href="#" id="header_news_letter"><span class="header_hide">{l s='Newsletter'}</span> <i class="newsletter_icon"></i></a>
-								</div>
+								</div>-->
 
 								<div id="contact-link" {if isset($is_logged) && $is_logged} class="is_logged"{/if}>
 									<a href="{$link->getPageLink('contact', true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcontact'}"><span class="header_hide">{l s='Contact us'}</span><i class="blockcontact_icon"></i></a>

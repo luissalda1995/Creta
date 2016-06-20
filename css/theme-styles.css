@@ -51,6 +51,13 @@
   font-style: normal; 
 }  
 
+@font-face {
+  font-family: 'CretaBold';
+  src: url("../fonts/NexaBold/NexaBold.otf");
+  font-weight: normal;
+  font-style: normal; 
+}  
+
 
 body.custom_theme { overflow-x: hidden; }
 
@@ -147,7 +154,7 @@ ul.product_list.grid > li .product-container .content_price {
 
 
 ul.product_list.grid > li .product-container h5 a {
-	font-family: 'GothamProMedium';
+	font-family: 'CretaBold';
 	font-size: 26px;
 	color: #040406;
 	line-height: 36px;
@@ -246,7 +253,7 @@ body.custom_theme #header #social_block h4 {display: none;}
 
 body.custom_theme #header #social_block ul li a:before {
     content: "";
-    width: 34px; height: 34px;
+    width: 42px; height: 42px;
     display: inline-block;
     background-image: url(../img/head_socials.png);
     background-repeat: no-repeat;
@@ -256,10 +263,10 @@ body.custom_theme #header #social_block ul li {display: inline-block; margin-lef
 body.custom_theme #header #social_block ul li a span {display: none;}
 
 body.custom_theme #header #social_block ul li.facebook a:before {
-    background-position: 0px 0px;
+    background-position: -47px 0px;
 }
 body.custom_theme #header #social_block ul li.facebook a:hover:before {
-    background-position: 0px -36px;
+    background-position: -45px -41px;
 }
 body.custom_theme #header #social_block ul li.twitter a:before {
     background-position: -47px 0px;
@@ -278,6 +285,12 @@ body.custom_theme #header #social_block ul li.google-plus a:before {
 }
 body.custom_theme #header #social_block ul li.google-plus a:hover:before {
     background-position: -141px -36px;
+}
+body.custom_theme #header #social_block ul li.instagram a:before {
+    background-position: -138px 0px;
+}
+body.custom_theme #header #social_block ul li.instagram a:hover:before {
+    background-position: -135px -40px;
 }
 
 .news_letter_popup {
@@ -600,7 +613,7 @@ textarea:active:focus {outline: none !important;}
 	color: #fff;
 	padding: 10px 14px 10px 14px;
 	font-weight: normal;
-	background: #514C29;
+	background: #C2CD93;
 	border: none;
 	border-radius: 20px;
 	margin-bottom: 10px;
@@ -637,7 +650,7 @@ textarea:active:focus {outline: none !important;}
 	}
 }
 .button.button-medium:hover {
-	background: #C2CD93;
+	background: #514C29;
 	border: none;
 }
 
@@ -647,7 +660,7 @@ textarea:active:focus {outline: none !important;}
 	color: #fff;
 	padding: 10px 14px 10px 14px;
 	font-weight: normal;
-	background: #514C29;
+	background: #C2CD93;
 	border: none;
 	border-radius: 20px;
 }
