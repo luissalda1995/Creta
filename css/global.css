@@ -106,7 +106,7 @@ abbr[title] {
 
 b,
 strong {
-  font-family: 'GothamProBold'; }
+  font-family: 'CretaBold'; }
 
 dfn {
   font-style: italic; }
@@ -6105,7 +6105,7 @@ table.table_block td {
     background: #fbfbfb; }
 
 .product-name {
-  font-family: 'GothamProBold';
+  font-family: 'CretaBold';
   font-size: 16px;
   line-height: 20px;
   color: #222;
@@ -6140,7 +6140,7 @@ table.table_block td {
   right: 25px; }
 
 .new-label {
-  font-family: 'GothamProBold';
+  font-family: 'CretaBold';
   font-size: 22px;
   line-height: 32px;
   color: #fff;
@@ -6165,7 +6165,7 @@ table.table_block td {
 
 
 .sale-label {
-  font-family: 'GothamProBold';
+  font-family: 'CretaBold';
   font-size: 22px;
   line-height: 32px;
   color: #fff;
@@ -6277,7 +6277,7 @@ table.table_block td {
    
     
     #home-page-tabs > li a {
-      font-family: 'GothamProBold';
+      font-family: 'CretaBold';
       font-size: 18px;
       color: #555454;
       text-transform: uppercase;

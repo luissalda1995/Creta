@@ -84,6 +84,7 @@ body .product_list.grid.row {margin-right: 0; margin-left: 0;}
 #center_column ul.product_list.grid li.ajax_block_product {
 	padding-left: 0; padding-right: 0;
 	overflow: hidden;
+  border:1px solid #eaeaea;
 }
 
 .left-block {position: relative;}
@@ -94,6 +95,10 @@ body .product_list.grid.row {margin-right: 0; margin-left: 0;}
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.info-producto{
+  height: 170px;
 }
 
 
@@ -108,7 +113,7 @@ ul.product_list.grid > li .product-container .content_price {
 
 
 .price.product-price {
-  font-family: 'GothamProBold';
+  font-family: 'CretaBold';
   font-size: 25px;
   line-height: 40px;
   color: #C2CD93;
@@ -122,7 +127,7 @@ ul.product_list.grid > li .product-container .content_price {
 }
 
 .old-price {
-  font-family: 'GothamProBold';
+  font-family: 'CretaBold';
   color: #999a98;
   font-size: 26px;
   position: absolute;
@@ -325,7 +330,7 @@ body.custom_theme #header #social_block ul li.instagram a:hover:before {
 }
 
 .news_letter_popup .news_letter_popup_inner #newsletter_block_left h4 {
-    font-family: 'GothamProBold';
+    font-family: 'CretaBold';
     font-size: 42px;
     line-height: 42px;
     padding: 0 0 0 0;
@@ -359,7 +364,7 @@ body.custom_theme #header #social_block ul li.instagram a:hover:before {
 }
 
 .news_letter_popup .news_letter_popup_inner #newsletter_block_left .block_content button {
-    font-family: 'GothamProBold';
+    font-family: 'CretaBold';
     font-size: 18px;
     color: #fff;
     border: none;
@@ -389,7 +394,7 @@ body.custom_theme #header #social_block ul li.instagram a:hover:before {
 }
 
 .header_news_letter a {
-    font-family: 'GothamProBold';
+    font-family: 'CretaBold';
     font-size: 12px;
     color: #222;
     text-transform: uppercase;
@@ -431,7 +436,7 @@ body.custom_theme #header #social_block ul li.instagram a:hover:before {
 #header #block_various_links_footer h4,
 .my_menu_open span {
     color: #222;
-    font-family: 'GothamProBold';
+    font-family: 'CretaBold';
     font-size: 12px;
     line-height: 14px;
     text-transform: uppercase;
@@ -445,7 +450,7 @@ body.custom_theme #header #social_block ul li.instagram a:hover:before {
 #header .my_menu #categories_block_left {margin-bottom: 0;}
 #header .my_menu #categories_block_left li a {
     color: #222;
-    font-family: 'GothamProBold';
+    font-family: 'CretaBold';
     font-size: 12px;
     line-height: 18px;
     padding: 6px 9px 7px 16px;
@@ -709,7 +714,7 @@ textarea:active:focus {outline: none !important;}
 }
 
 .page-heading {
-  font-family: 'GothamProMedium';
+  font-family: 'CretaBold';
   font-size: 30px;
   line-height: 30px;
   color: #222;
@@ -721,14 +726,14 @@ textarea:active:focus {outline: none !important;}
 }
 
 .pb-center-column h1 {
-	font-family: 'GothamProMedium';
+	font-family: 'CretaBold';
 	padding-bottom: 16px;
 	font-size: 26px;
 	color: #222;
 }
 
 .btn.btn-default.button.button-small {
-    font-family: 'GothamProMedium';
+    font-family: 'CretaBold';
     font-size: 17px;
     line-height: 21px;
     color: #fff;

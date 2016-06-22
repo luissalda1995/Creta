@@ -155,7 +155,7 @@ Product list(Grid) Styles
 ********************************************************/
 ul.product_list.grid > li {
   padding-bottom: 0px;
-  text-align: right; }
+  text-align: center; }
   @media (min-width: 480px) and (max-width: 767px) {
     ul.product_list.grid > li {
       width: 50%;
