@@ -82,12 +82,14 @@ body.custom_theme .columns-container {margin-left: 245px;}
 body .product_list.grid.row {margin-right: 0; margin-left: 0;}
 
 #center_column ul.product_list.grid li.ajax_block_product {
-	padding-left: 0; padding-right: 0;
 	overflow: hidden;
-  border:1px solid #eaeaea;
+  padding: 5px;
 }
 
-.left-block {position: relative;}
+.left-block {
+  position: relative;
+  border: 2px solid #f3f3f3;
+}
 
 .right-block {
 	position: absolute;
@@ -96,11 +98,6 @@ body .product_list.grid.row {margin-right: 0; margin-left: 0;}
     right: 0;
     bottom: 0;
 }
-
-.info-producto{
-  height: 170px;
-}
-
 
 
 ul.product_list.grid > li .product-container .content_price {
@@ -159,10 +156,10 @@ ul.product_list.grid > li .product-container .content_price {
 
 
 ul.product_list.grid > li .product-container h5 a {
-	font-family: 'CretaBold';
-	font-size: 26px;
+	font-family: 'Creta';
+	font-size: 16px;
 	color: #040406;
-	line-height: 36px;
+	line-height: 28px;
 }
 ul.product_list.grid > li .product-container h5 a:hover,
 ul.product_list.grid > li .product-container h5 a:active,
@@ -200,6 +197,10 @@ ul.product_list.grid > li .product-container .button-container {
 	box-shadow: none;
 	color: #000;
 	padding: 0;
+  background-color: #514C29;
+  border-radius: 10px;
+  padding: 5px;
+  color: white  
 }
 
 
@@ -209,7 +210,10 @@ ul.product_list.grid > li .product-container .button-container .lnk_view {
 }
 
 
-
+.info-producto{
+  background-color: #fafafa;
+  border-top: 2px solid #f3f3f3;
+}
 
 
 .right-block .button-container .quick-view span {
@@ -231,8 +235,6 @@ ul.product_list.grid > li .product-container .button-container .lnk_view {
 
 .button.ajax_add_to_cart_button span {
 	display: inline-block;
-	width: 28px; height: 34px;
-	background-image: url(../img/add-to-cart.png);
 	background-repeat: no-repeat;
 	background-position: -28px 0px;
 }
@@ -814,7 +816,7 @@ textarea:active:focus {outline: none !important;}
 		margin: 0 26px 0px 6px;
 	}
 
-	ul.product_list.grid > li .product-container h5 a {font-size: 20px; /*line-height: 40px;*/}
+	ul.product_list.grid > li .product-container h5 a {font-size: 18px; /*line-height: 40px;*/}
 	.price.product-price {font-size: 28px; line-height: 50px;}
 	ul.product_list.grid > li .product-container .content_price {bottom: 20px;}
 	.price-percent-reduction {top: -14px;}
