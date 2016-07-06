@@ -153,7 +153,10 @@ ul.product_list.grid > li .product-container .content_price {
 
 
 
-
+ul.product_list.grid > li .product-container h5 {
+	position: relative;
+	z-index: 1;
+}
 
 ul.product_list.grid > li .product-container h5 a {
 	font-family: 'Creta';
@@ -198,8 +201,7 @@ ul.product_list.grid > li .product-container .button-container {
 	color: #000;
 	padding: 0;
   background-color: #514C29;
-  border-radius: 10px;
-  padding: 5px;
+  padding: 8px;
   color: white  
 }
 
