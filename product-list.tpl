@@ -134,9 +134,9 @@
 						{l s='' mod='blockwishlist'}
 						</a>*}
 
-						<a class="quick-view" href="{$product.link|escape:'html':'UTF-8'}" rel="{$product.link|escape:'html':'UTF-8'}">
+						<!--<a class="quick-view" href="{$product.link|escape:'html':'UTF-8'}" rel="{$product.link|escape:'html':'UTF-8'}">
 							<span>{l s=''}</span>
-						</a>
+						</a>-->
 
 						<a class="button lnk_view btn btn-default" href="{$product.link|escape:'html':'UTF-8'}" title="{l s='View'}">
 							<span>{if (isset($product.customization_required) && $product.customization_required)}{l s='Customize'}{else}{l s='More'}{/if}</span>
@@ -231,7 +231,10 @@
 									<span>{l s='Add to cart'}</span>
 								</span>
 							{/if}
-						{/if}				
+						{/if}
+						<a class="button quick-view btn btn-default" href="{$product.link|escape:'html':'UTF-8'}" rel="{$product.link|escape:'html':'UTF-8'}">
+							<span>Ver más</span>
+						</a>				
 				</div>
 				<!-- Fin info del producto-->
 				

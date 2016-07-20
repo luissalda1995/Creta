@@ -1201,7 +1201,8 @@ table col[class*="col-"] {
 table td[class*="col-"],
 table th[class*="col-"] {
   float: none;
-  display: table-cell; }
+  display: table-cell;
+  border: 1px solid }
 
 .table > thead > tr > td.active,
 .table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
