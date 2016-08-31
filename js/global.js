@@ -26,6 +26,8 @@
 var responsiveflag = false;
 
 $(document).ready(function(){
+	$('.header-container').prepend($('#layer_cart'));
+	
 	highdpiInit();
 	responsiveResize();
 	$(window).resize(responsiveResize);
@@ -350,6 +352,7 @@ function display(view)
 		$.totalStorage('display', 'grid');
 	}
 }
+
 
 function dropDown()
 {
