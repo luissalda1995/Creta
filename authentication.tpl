@@ -129,7 +129,7 @@
 						<label for="lastname">{l s='Last name'} <sup>*</sup></label>
 						<input type="text" class="is_required validate form-control" data-validate="isName" id="lastname" name="lastname" value="{if isset($smarty.post.lastname)}{$smarty.post.lastname}{/if}" />
 					</div>
-					<div class="form-group date-select">
+					<!--<div class="form-group date-select">
 						<label>{l s='Date of Birth'}</label>
 						<div class="row">
 							<div class="col-xs-4">
@@ -171,7 +171,7 @@
 								</select>
 							</div>
 						</div>
-					</div>
+					</div>-->
 					{if isset($newsletter) && $newsletter}
 						<div class="checkbox">
 							<label for="newsletter">

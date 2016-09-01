@@ -85,7 +85,7 @@
 						<label for="lastname">{l s='Last name'} <sup>*</sup></label>
 						<input type="text" class="form-control validate" id="customer_lastname" name="customer_lastname" onblur="$('#lastname').val($(this).val());" data-validate="isName" value="{if isset($guestInformations) && isset($guestInformations.customer_lastname) && $guestInformations.customer_lastname}{$guestInformations.customer_lastname}{/if}" />
 					</div>
-					<div class="select form-group date-select">
+					<!--<div class="select form-group date-select">
 						<label>{l s='Date of Birth'}</label>
 						<div class="row">
 							<div class="col-xs-4">
@@ -127,7 +127,7 @@
 								</select>
 							</div>
 						</div>
-					</div>
+					</div>-->
 					{if isset($newsletter) && $newsletter}
 					<div class="checkbox">
 						<label for="newsletter">

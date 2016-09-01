@@ -84,7 +84,7 @@
                     </label>
                     <input class="is_required validate form-control" data-validate="isEmail" type="email" name="email" id="email" value="{$smarty.post.email}" />
                 </div>
-                <div class="form-group">
+                <!--<div class="form-group">
                     <label>
                         {l s='Date of Birth'}
                     </label>
@@ -128,7 +128,7 @@
                             </select>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="required form-group">
                     <label for="old_passwd" class="required">
                         {l s='Current Password'}
