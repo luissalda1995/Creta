@@ -55,7 +55,7 @@
         </p>
         <form action="{$link->getPageLink('identity', true)|escape:'html':'UTF-8'}" method="post" class="std">
             <fieldset>
-                <div class="clearfix">
+                <!--<div class="clearfix">
                     <label>{l s='Social title'}</label>
                     <br />
                     {foreach from=$genders key=k item=gender}
@@ -65,7 +65,7 @@
                             {$gender->name}</label>
                         </div>
                     {/foreach}
-                </div>
+                </div>-->
                 <div class="required form-group">
                     <label for="firstname" class="required">
                         {l s='First name'}

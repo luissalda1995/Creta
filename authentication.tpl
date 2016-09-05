@@ -110,7 +110,7 @@
 						<label for="guest_email">{l s='Email address'} <sup>*</sup></label>
 						<input type="text" class="is_required validate form-control" data-validate="isEmail" id="guest_email" name="guest_email" value="{if isset($smarty.post.guest_email)}{$smarty.post.guest_email}{/if}" />
 					</div>
-					<div class="cleafix gender-line">
+					<!--<div class="cleafix gender-line">
 						<label>{l s='Title'}</label>
 						{foreach from=$genders key=k item=gender}
 							<div class="radio-inline">
@@ -120,7 +120,7 @@
 								</label>
 							</div>
 						{/foreach}
-					</div>
+					</div>-->
 					<div class="required form-group">
 						<label for="firstname">{l s='First name'} <sup>*</sup></label>
 						<input type="text" class="is_required validate form-control" data-validate="isName" id="firstname" name="firstname" value="{if isset($smarty.post.firstname)}{$smarty.post.firstname}{/if}" />
