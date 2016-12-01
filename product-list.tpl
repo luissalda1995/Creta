@@ -219,7 +219,7 @@
 							{hook h="displayProductPriceBlock" product=$product type='after_price'}
 						{/if}
 					</div>	
-					<!--{/if}
+					{/if}
 						{if ($product.id_product_attribute == 0 || (isset($add_prod_display) && ($add_prod_display == 1))) && $product.available_for_order && !isset($restricted_country_mode) && $product.customizable != 2 && !$PS_CATALOG_MODE}
 							{if (!isset($product.customization_required) || !$product.customization_required) && ($product.allow_oosp || $product.quantity > 0)}
 								{capture}add=1&amp;id_product={$product.id_product|intval}{if isset($product.id_product_attribute) && $product.id_product_attribute}&amp;ipa={$product.id_product_attribute|intval}{/if}{if isset($static_token)}&amp;token={$static_token}{/if}{/capture}
@@ -231,9 +231,9 @@
 									<span>{l s='Add to cart'}</span>
 								</span>
 							{/if}
-						{/if}-->
+						{/if}
 						<a class="button quick-view btn btn-default" href="{$product.link|escape:'html':'UTF-8'}" rel="{$product.link|escape:'html':'UTF-8'}">
-							<span>{l s='Add to cart'}</span>
+							<span>Ver más</span>
 						</a>				
 				</div>
 				<!-- Fin info del producto-->
